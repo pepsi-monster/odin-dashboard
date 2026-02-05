@@ -3,7 +3,226 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styels.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <title>Odin Dashboard</title>
   </head>
-  <body></body>
+  <body>
+    <aside class="fs-400 fw-600">
+      <div class="logo-container">
+        <img class="logo" src="./img/logo.svg" alt="" />
+        <p class="fs-700 fw-600">Dashboard</p>
+      </div>
+      <div class="menu-group">
+        <ul>
+          <li>
+            <a href="">
+              <span class="ms ms-filled-bold-m">home</span>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="ms ms-filled-bold-m">account_box</span>
+              Profile
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="ms ms-filled-bold-m">Comment</span>
+              comment
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="ms ms-filled-bold-m">history</span>
+              History
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="ms ms-filled-bold-m">ballot</span>
+              Tasks
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="ms ms-filled-bold-m">groups</span>
+              Communities
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-group">
+        <ul>
+          <li>
+            <a href="">
+              <span class="ms ms-filled-bold-m">settings</span>
+              Settings
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="ms ms-filled-bold-m">help</span>
+              Support
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="ms ms-filled-bold-m">security</span>
+              Privacy
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <header>
+      <div class="search-container">
+        <span class="ms ms-lined-l">search</span>
+        <input type="search" id="search" />
+      </div>
+      <div class="identity-container fs-500 fw-600">
+        <span class="ms ms-lined-l">notifications_active</span>
+        <img class="avatar avatal-m" src="./img/profile_photo.png" alt="" />
+        <p>Morgan Oakley</p>
+      </div>
+      <div class="greeting-container">
+        <img src="./img/profile_photo.png" class="avatar avatar-l" alt="" />
+        <p>
+          <span class="fs-300 fw-600">Hi there</span>,<br />
+          <span class="fs-600 fw-600">Morgan Oakley (@morgan)</span>
+        </p>
+      </div>
+      <div class="filter-container fs-400 fw-600">
+        <button class="filter-option" type="button">New</button>
+        <button class="filter-option" type="button">Upload</button>
+        <button class="filter-option" type="button">Share</button>
+      </div>
+    </header>
+    <main>
+      <div class="main-block">
+        <p class="fs-500 fw-600">Your Projects</p>
+        <div class="card-container">
+          <div class="card">
+            <p class="fs-500 fw-600">Super Cool Project</p>
+            <p>
+              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+              erat, id facilisis felis accumsan nec.
+            </p>
+            <ul>
+              <li>
+                <span class="ms ms-lined-l">bookmark_star</span>
+              </li>
+              <li>
+                <span class="ms ms-lined-l">add_alert</span>
+              </li>
+              <li>
+                <span class="ms ms-lined-l"> home </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <p class="fs-500 fw-600">Super Cool Project</p>
+            <p>
+              Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque
+              sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis
+              sem purus, dignissim ut sapien in, varius pellentesque lacus.
+            </p>
+            <ul>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <p class="fs-500 fw-600">Super Cool Project</p>
+            <p>
+              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+              erat, id facilisis felis accumsan nec.
+            </p>
+            <ul>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <p class="fs-500 fw-600">Super Cool Project</p>
+            <p>
+              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+              erat, id facilisis felis accumsan nec.
+            </p>
+            <ul>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <p class="fs-500 fw-600">Super Cool Project</p>
+            <p>
+              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+              erat, id facilisis felis accumsan nec.
+            </p>
+            <ul>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <p class="fs-500 fw-600">Super Cool Project</p>
+            <p>
+              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+              erat, id facilisis felis accumsan nec.
+            </p>
+            <ul>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> home </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
